@@ -8,9 +8,6 @@ This is a simple collection of my notes. You can find my blog page here,
 > A simple, personal and minimal blog site!  
 > [https://sharafat.pages.dev/](https://sharafat.pages.dev/)  
 
-
-![[useful android apps.png]]
-
 #### Quick Notes
 
 |Name|Author|Created|Description|Featured|Last Updated|Public|Published|Slug|Tags|Tweet|
