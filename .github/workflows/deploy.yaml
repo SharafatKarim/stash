@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - v4
+  schedule:
+    - cron: '0 */6 * * *' # At 0 minutes past the hour, every 6 hours
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -21,6 +25,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all history for git info
+          submodules: true
       - uses: actions/setup-node@v4
         with:
           node-version: 22
