@@ -34,8 +34,10 @@ jobs:
           node-version: 22
       - name: Install Dependencies
         run: npm i
-      - name: Build Quartz
-        run: npx quartz build
+      - name: Update Quratz
+        run: npm quartz update
+      - name: Sync Quartz
+        run: npx quartz sync
 
       # - name: push changes
       #   uses: ad-m/github-push-action@v0.6.0
