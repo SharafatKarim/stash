@@ -29,8 +29,16 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated blogs content" --allow-empty)
 
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+      - uses: actions/setup-node@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          node-version: 22
+      - name: Install Dependencies
+        run: npm i
+      - name: Build Quartz
+        run: npx quartz build
+
+      # - name: push changes
+      #   uses: ad-m/github-push-action@v0.6.0
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: main
