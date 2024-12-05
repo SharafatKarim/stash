@@ -2,6 +2,7 @@ name: Deploy Quartz site to GitHub Pages
 
 on:
   push:
+  workflow_dispatch:
 
   # schedule:
   #   - cron: '0 */6 * * *' # At 0 minutes past the hour, every 6 hours
