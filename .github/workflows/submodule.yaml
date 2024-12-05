@@ -49,15 +49,15 @@ jobs:
     needs: update
     runs-on: ubuntu-22.04
     steps:
-      # - uses: actions/checkout@v4
-      #   with:
-      #     fetch-depth: 0 # Fetch all history for git info
-      #     submodules: true
-      # - uses: actions/setup-node@v4
-      #   with:
-      #     node-version: 22
-      # - name: Install Dependencies
-      #   run: npm i
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for git info
+          submodules: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Dependencies
+        run: npm i
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
