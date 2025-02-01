@@ -62,7 +62,7 @@ jobs:
         with:
           node-version: 22
       - name: Install Dependencies
-        run: npm i
+        run: npm i --force
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
