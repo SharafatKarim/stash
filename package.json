@@ -37,7 +37,7 @@
   "dependencies": {
     "@clack/prompts": "^0.10.0",
     "@floating-ui/dom": "^1.6.12",
-    "@myriaddreamin/rehype-typst": "^0.5.0-rc7",
+    "@myriaddreamin/rehype-typst": "^0.6.0",
     "@napi-rs/simple-git": "0.1.19",
     "@tweenjs/tween.js": "^25.0.0",
     "async-mutex": "^0.5.0",
@@ -64,7 +64,7 @@
     "pixi.js": "^8.5.2",
     "preact": "^10.24.3",
     "preact-render-to-string": "^6.5.11",
-    "pretty-bytes": "^6.1.1",
+    "pretty-bytes": "^7.0.0",
     "pretty-time": "^1.1.0",
     "reading-time": "^1.5.0",
     "rehype-autolink-headings": "^7.1.0",
