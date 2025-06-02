@@ -35,7 +35,7 @@
     "quartz": "./quartz/bootstrap-cli.mjs"
   },
   "dependencies": {
-    "@clack/prompts": "^0.10.0",
+    "@clack/prompts": "^0.11.0",
     "@floating-ui/dom": "^1.6.12",
     "@myriaddreamin/rehype-typst": "^0.6.0",
     "@napi-rs/simple-git": "0.1.19",
@@ -46,7 +46,7 @@
     "cli-spinner": "^0.2.10",
     "d3": "^7.9.0",
     "esbuild-sass-plugin": "^3.3.1",
-    "flexsearch": "0.8.167",
+    "flexsearch": "0.8.204",
     "github-slugger": "^2.0.0",
     "globby": "^14.0.2",
     "gray-matter": "^4.0.3",
@@ -96,7 +96,7 @@
     "vfile": "^6.0.3",
     "workerpool": "^9.2.0",
     "ws": "^8.18.0",
-    "yargs": "^17.7.2"
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
     "@types/cli-spinner": "^0.2.3",
