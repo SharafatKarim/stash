@@ -84,8 +84,8 @@ importers:
         specifier: ^0.4.5
         version: 0.4.5
       pixi.js:
-        specifier: ^8.17.0
-        version: 8.17.0
+        specifier: ^8.17.1
+        version: 8.17.1
       preact:
         specifier: ^10.29.0
         version: 10.29.0
@@ -153,8 +153,8 @@ importers:
         specifier: ^6.1.3
         version: 6.1.3
       satori:
-        specifier: ^0.25.0
-        version: 0.25.0
+        specifier: ^0.26.0
+        version: 0.26.0
       serve-handler:
         specifier: ^6.1.7
         version: 6.1.7
@@ -186,8 +186,8 @@ importers:
         specifier: ^10.0.1
         version: 10.0.1
       ws:
-        specifier: ^8.19.0
-        version: 8.19.0
+        specifier: ^8.20.0
+        version: 8.20.0
       yargs:
         specifier: ^18.0.0
         version: 18.0.0
@@ -1986,8 +1986,8 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  pixi.js@8.17.0:
-    resolution: {integrity: sha512-A6AhxbNG8Abo5xyNRJx//ETefTCcwWx2sw9e/E57YCGQ8MuvS5o2mbofBOPCdf1J+z6VKd7MZjictS9EkMXiuw==}
+  pixi.js@8.17.1:
+    resolution: {integrity: sha512-OB4TpZHrP5RYy+7FqmFrAc0IHRhfOoNIfF4sVeinvK3aG1r2pYrSMneJAKi9+WvGKC70Dj7GEpZ2OZGB6o/xdg==}
 
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
@@ -2267,8 +2267,8 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
-  satori@0.25.0:
-    resolution: {integrity: sha512-utINfLxrYrmSnLvxFT4ZwgwWa8KOjrz7ans32V5wItgHVmzESl/9i33nE38uG0miycab8hUqQtDlOpqrIpB/iw==}
+  satori@0.26.0:
+    resolution: {integrity: sha512-tkMFrfIs3l2mQ2JEcyW0ADTy3zGggFRFzi6Ef8YozQSFsFKEqaSO1Y8F9wJg4//PJGQauMalHGTUEkPrFwhVPA==}
     engines: {node: '>=16'}
 
   section-matter@1.0.0:
@@ -2479,8 +2479,8 @@ packages:
     resolution: {integrity: sha512-42AtmgqjV+X1VpdOfyTGOYRi0/zsoLqtXQckTmqTeybT+BDIbM/Guxo7x3pE2vtpr1ok6xRqM9OpBe+Jyoqyww==}
     engines: {node: '>=18'}
 
-  ws@8.19.0:
-    resolution: {integrity: sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIALViWjDg==}
+  ws@8.20.0:
+    resolution: {integrity: sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -4388,7 +4388,7 @@ snapshots:
   picomatch@4.0.3:
     optional: true
 
-  pixi.js@8.17.0:
+  pixi.js@8.17.1:
     dependencies:
       '@pixi/colord': 2.9.6
       '@types/earcut': 3.0.0
@@ -4753,7 +4753,7 @@ snapshots:
     optionalDependencies:
       '@parcel/watcher': 2.5.6
 
-  satori@0.25.0:
+  satori@0.26.0:
     dependencies:
       '@shuding/opentype.js': 1.4.0-beta.0
       css-background-parser: 0.1.0
@@ -5032,7 +5032,7 @@ snapshots:
       string-width: 7.2.0
       strip-ansi: 7.1.2
 
-  ws@8.19.0: {}
+  ws@8.20.0: {}
 
   y18n@5.0.8: {}
 
