@@ -1,0 +1,41 @@
+name: Update Submodule
+
+on:
+  # Allows you to run it manually from the Actions tab
+  workflow_dispatch:
+
+  # Or run it automatically on a schedule (e.g., every day at midnight UTC)
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write # Needed to commit changes back to the repository
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Update submodule to latest commit
+        run: |
+          git submodule update --remote --recursive
+
+      - name: Check for changes and commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Check if there are any differences in the submodule reference
+          if git diff --quiet; then
+            echo "No submodule updates found."
+          else
+            git add .
+            git commit -m "chore: auto-update submodule to latest commit"
+            git push origin v5
+          fi
