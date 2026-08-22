@@ -1,0 +1,44 @@
+name: Update Quartz Framework
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1' # Runs weekly on Mondays at midnight UTC
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true # <-- Clones submodules as well
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Configure Git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run Quartz Upgrade
+        run: |
+          npx quartz upgrade
+
+      - name: Check for changes and commit
+        run: |
+          if git diff --quiet; then
+            echo "Quartz is already up to date."
+          else
+            git add .
+            git commit -m "chore: auto-upgrade Quartz framework to latest version"
+            git push origin v5
+          fi
