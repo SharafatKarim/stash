@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: 24
 
+      - name: Install Dependencies
+        run: npm ci
+
       - name: Configure Git identity
         run: |
           git config --global user.name "github-actions[bot]"
