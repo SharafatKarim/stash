@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 🪴 Stash
+  pageTitle: "🪴 Stash"
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: sharafat.is-a.dev/stash
+  baseUrl: "sharafat.is-a.dev/stash"
   ignorePatterns:
     - private
     - templates
