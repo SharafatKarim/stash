@@ -1,11 +1,11 @@
-name: Update submodules and push page
+name: GH Page -  submodules + push
 
-# Controls when the action will run.
 on:
   push:
+    branches:
+      - v4    # Restrict to v4 so pushes to other branches don't cause confusion
   schedule:
-    - cron: '0 */6 * * *' # At 0 minutes past the hour, every 6 hours
-  # Allows you to run this workflow manually from the Actions tab
+    - cron: '0 */6 * * *' # Every 6 hours
   workflow_dispatch:
 
 permissions:
@@ -14,68 +14,53 @@ permissions:
   id-token: write
 
 jobs:
-  # This workflow contains a single job called "update"
   update:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # 1. Properly check out repo AND pull submodules in one go
       - uses: actions/checkout@v7
+        with:
+          submodules: recursive
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Pull & update submodules recursively
-        run: |
-          git submodule update --init --recursive
-          git submodule update --recursive --remote
-
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated blogs content" --allow-empty)
-
+      # 2. Setup Node environment
       - uses: actions/setup-node@v7
         with:
           node-version: 22
+
       - name: Install Dependencies
         run: npm i --force
-      - name: Update Quratz
+
+      # 3. Update Quartz and Content
+      - name: Update Quartz
         run: npx quartz update
       - name: Sync Quartz
         run: npx quartz sync
 
-      - name: push changes
+      # 4. Commit changes back to repo (with [skip ci] to prevent infinite loops)
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -m "updated blogs content [skip ci]" --allow-empty)
+
+      # 5. Push changes
+      - name: Push changes
         uses: ad-m/github-push-action@v1.3.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: v4
-      
+
+      # 6. Build Quartz for Pages
       - name: Build Quartz
         run: npx quartz build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
           path: public
-
-  # build:
-  #   needs: update
-  #   runs-on: ubuntu-22.04
-  #   steps:
-  #     - uses: actions/checkout@v7
-  #       with:
-  #         fetch-depth: 0 # Fetch all history for git info
-  #         submodules: true
-  #     - uses: actions/setup-node@v7
-  #       with:
-  #         node-version: 22
-  #     - name: Install Dependencies
-  #       run: npm i --force
-  #     - name: Build Quartz
-  #       run: npx quartz build
-  #     - name: Upload artifact
-  #       uses: actions/upload-pages-artifact@v5
-  #       with:
-  #         path: public
 
   deploy:
     needs: update
