@@ -1,15 +1,16 @@
-name: GH Update and Deploy
+name: GH - Deploy
 
 on:
   push:
     branches:
       - v5
-  workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * 1' # Runs weekly on Mondays at midnight UTC
+  workflow_run:
+    workflows: ["Update Quartz Framework"]
+    types:
+      - completed
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -21,18 +22,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Fetch all history for git info
           submodules: true
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24
-
       - name: Cache dependencies
         uses: actions/cache@v5
         with:
@@ -40,7 +36,6 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-
       - name: Cache Quartz plugins
         uses: actions/cache@v5
         with:
@@ -48,30 +43,12 @@ jobs:
           key: ${{ runner.os }}-plugins-${{ hashFiles('quartz.lock.json') }}
           restore-keys: |
             ${{ runner.os }}-plugins-
-
       - name: Install Dependencies
         run: npm ci
-
-      - name: Upgrade Quartz Framework (Scheduled/Manual)
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          npx quartz upgrade
-          if git diff --quiet; then
-            echo "Quartz is already up to date."
-          else
-            git add .
-            git commit -m "chore: auto-upgrade Quartz framework to latest version"
-            git push origin v5
-          fi
-
       - name: Install Quartz plugins
         run: npx quartz plugin install
-
       - name: Build Quartz
         run: npx quartz build
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
