@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - v5
+  workflow_run:
+    workflows: ["Update Quartz Framework"]
+    types:
+      - completed
 
 permissions:
   contents: read
