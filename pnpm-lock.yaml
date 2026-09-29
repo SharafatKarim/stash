@@ -21,140 +21,140 @@ importers:
         specifier: 1.1.0
         version: 1.1.0
       '@quartz-community/alias-redirects':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/article-title':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/backlinks':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/bases-page':
-        specifier: ^0.2.0
-        version: 0.2.2(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/breadcrumbs':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/canvas-page':
-        specifier: ^0.1.0
-        version: 0.1.0(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/citations':
-        specifier: ^0.1.0
-        version: 0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/cname':
-        specifier: ^0.1.0
-        version: 0.1.0(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/comments':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/content-index':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/content-meta':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/content-page':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/crawl-links':
-        specifier: ^0.1.0
-        version: 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/created-modified-date':
-        specifier: ^0.1.0
-        version: 0.1.0(@napi-rs/simple-git@1.1.0)(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/darkmode':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/description':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/encrypted-pages':
-        specifier: ^0.1.0
-        version: 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/explicit-publish':
-        specifier: ^0.1.0
-        version: 0.1.0(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/explorer':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/favicon':
-        specifier: ^0.1.1
-        version: 0.1.1(sharp@0.35.4(@types/node@26.5.1))(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/folder-page':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/footer':
-        specifier: ^0.1.0
-        version: 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/github-flavored-markdown':
-        specifier: ^0.1.0
-        version: 0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/graph':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/hard-line-breaks':
-        specifier: ^0.1.0
-        version: 0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/latex':
-        specifier: ^0.1.0
-        version: 0.1.0(@myriaddreamin/rehype-typst@0.7.0(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/note-properties':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/obsidian-flavored-markdown':
-        specifier: ^0.1.1
-        version: 0.1.2(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/og-image':
-        specifier: ^0.1.1
-        version: 0.1.2(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(sharp@0.35.4(@types/node@26.5.1))(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/ox-hugo':
-        specifier: ^0.1.0
-        version: 0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/page-title':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/quartz-fonts':
-        specifier: ^0.1.1
-        version: 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/reader-mode':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/recent-notes':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/remove-draft':
-        specifier: ^0.1.0
-        version: 0.1.0(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/roam':
-        specifier: ^0.1.0
-        version: 0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/search':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/spacer':
-        specifier: ^0.1.0
-        version: 0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/stacked-pages':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/syntax-highlighting':
-        specifier: ^0.1.0
-        version: 0.1.0(preact@10.29.8)(shiki@4.4.3)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/table-of-contents':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/tag-list':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/tag-page':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/unlisted-pages':
-        specifier: ^0.1.0
-        version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-themes/core':
         specifier: ^1.0.0
-        version: 1.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/article-title':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/backlinks':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/bases-page':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/breadcrumbs':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/canvas-page':
+        specifier: ^1.0.0
+        version: 1.0.0(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/citations':
+        specifier: ^1.0.0
+        version: 1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/cname':
+        specifier: ^1.0.0
+        version: 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/comments':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/content-index':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/content-meta':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/content-page':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/crawl-links':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/created-modified-date':
+        specifier: ^1.0.1
+        version: 1.0.1(@napi-rs/simple-git@1.1.0)(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/darkmode':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/description':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/encrypted-pages':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/explicit-publish':
+        specifier: ^1.0.0
+        version: 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/explorer':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/favicon':
+        specifier: ^1.0.0
+        version: 1.0.0(sharp@0.35.4(@types/node@26.6.2))(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/folder-page':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/footer':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/github-flavored-markdown':
+        specifier: ^1.0.0
+        version: 1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/graph':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/hard-line-breaks':
+        specifier: ^1.0.0
+        version: 1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/latex':
+        specifier: ^1.0.0
+        version: 1.0.0(@myriaddreamin/rehype-typst@0.7.0(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/note-properties':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/obsidian-flavored-markdown':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/og-image':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(sharp@0.35.4(@types/node@26.6.2))(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/ox-hugo':
+        specifier: ^1.0.0
+        version: 1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/page-title':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/quartz-fonts':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/reader-mode':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/recent-notes':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/remove-draft':
+        specifier: ^1.0.0
+        version: 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/roam':
+        specifier: ^1.0.0
+        version: 1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/search':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/spacer':
+        specifier: ^1.0.0
+        version: 1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/stacked-pages':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/syntax-highlighting':
+        specifier: ^1.0.1
+        version: 1.0.1(preact@10.29.8)(shiki@4.4.3)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/table-of-contents':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/tag-list':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/tag-page':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/unlisted-pages':
+        specifier: ^1.0.0
+        version: 1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-themes/core':
+        specifier: ^2.0.0
+        version: 2.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       ansi-truncate:
         specifier: ^1.4.0
         version: 1.4.0
@@ -217,7 +217,7 @@ importers:
         version: 6.1.7
       sharp:
         specifier: ^0.35.4
-        version: 0.35.4(@types/node@26.5.1)
+        version: 0.35.4(@types/node@26.6.2)
       source-map-support:
         specifier: ^0.5.21
         version: 0.5.21
@@ -243,21 +243,21 @@ importers:
         specifier: ^2.9.1
         version: 2.9.1
       yargs:
-        specifier: ^18.0.0
-        version: 18.1.0
+        specifier: ^18.2.0
+        version: 18.2.0
     devDependencies:
       '@quartz-community/types':
-        specifier: ^0.3.0
-        version: 0.3.0(unified@11.0.5)(vfile@6.0.3)
+        specifier: ^1.0.0
+        version: 1.0.0(unified@11.0.5)(vfile@6.0.3)
       '@quartz-community/utils':
-        specifier: ^0.1.0
-        version: 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+        specifier: ^1.0.1
+        version: 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       '@types/hast':
         specifier: ^3.0.4
         version: 3.0.4
       '@types/node':
-        specifier: ^26.5.1
-        version: 26.5.1
+        specifier: ^26.6.2
+        version: 26.6.2
       '@types/pretty-time':
         specifier: ^1.1.5
         version: 1.1.5
@@ -274,11 +274,11 @@ importers:
         specifier: ^0.28.2
         version: 0.28.2
       prettier:
-        specifier: ^3.8.1
-        version: 3.9.6
+        specifier: ^3.9.8
+        version: 3.9.8
       tsx:
-        specifier: ^4.23.13
-        version: 4.23.13
+        specifier: ^4.23.15
+        version: 4.23.15
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
@@ -897,8 +897,8 @@ packages:
     resolution: {integrity: sha512-7FNeNl8NCE7aINx7WXiKQrPYZWC/hvrTsmk6zmxbI7LTXE7hVek/n8AfVgpe2y82zl3w0HvCHN0bVKMBoJcC0w==}
     engines: {node: '>= 10.0.0'}
 
-  '@quartz-community/alias-redirects@0.1.0':
-    resolution: {integrity: sha512-NaalcE+yxPqox5Qsj307Y293ub3eSJSudi1o1kKp/WrtJMvMeT2v8X9Xyvr2xEdENIGWubqq7IRhaBMZjPyDdQ==}
+  '@quartz-community/alias-redirects@1.0.0':
+    resolution: {integrity: sha512-DK2gBGvVEcQrD4D5DsxbW3V/91dtefnDV22+tbzap38IDQd820w6oPhAdUIFlDWt/a+x0D02UDxkSQW/cRy1Fg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       vfile: ^6.0.3
@@ -906,20 +906,20 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/article-title@0.1.0':
-    resolution: {integrity: sha512-LaqtdSh58sRphLVBewq/7B9CwrpDbvDcV2IjGZ43WxrngfQeXFZ/OejU28r/IvQWjflVGDnnmEeduqOSBSBUEQ==}
+  '@quartz-community/article-title@1.0.0':
+    resolution: {integrity: sha512-gcePaGgp9I1tgl74XsFUn0n0z3P580PxnAS3DUdD8HIMbRuq3yMDR4z3nMs9wwQwNavta6j7X2W/xsvNkw/JEA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/backlinks@0.1.0':
-    resolution: {integrity: sha512-OLkkBz5JF1MmRzhl1UINwcLUtdVUV4+iZZM1gnaSraqGebkLeTUUQdJSK3t+DHKEYI7qseQHm/GTcxiJX98tMA==}
+  '@quartz-community/backlinks@1.0.0':
+    resolution: {integrity: sha512-kKQcFaK5tAh8whTIULQtn5S3YjUnHHkOFXjPpHCzTXKnAbTEV7UN1tcpb4n/BZ/ppmjKjxDA9wwPjeWZJLI9FA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/bases-page@0.2.2':
-    resolution: {integrity: sha512-04KlZ8GMws1h7QQ9HVdVPA22oetpQbg19zc6l6/1PrQgL0+5tqic6VjqPywYVNR8S/1iGAE46ZquBe6tpMhr7A==}
+  '@quartz-community/bases-page@1.0.0':
+    resolution: {integrity: sha512-elqwinAnZTE0Z8F1odTzRmNj0CHDNwpNEBsrzjhs708wEf4MVHMvUce9r0ep/5gJBN1OvIeREAmsvwumG38KIA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       '@jackyzha0/quartz': ^5.0.0
@@ -931,14 +931,14 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/breadcrumbs@0.1.0':
-    resolution: {integrity: sha512-MIbJff28UQS6AMCbBRfKezbeK6ErsgKwZoL0FBC9fTPdQVHg9eHrGKp0oBiarfd5Y5FMZ99k0VecQ5X/GktwHQ==}
+  '@quartz-community/breadcrumbs@1.0.0':
+    resolution: {integrity: sha512-QBWF54MKPjifJZy9nbP9gtcJujsg4+0riI4np5XQxhg7s1V68D/a+RS1ON0UO1Zwiz+FmdTDM7Z4+7NpktbQjA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/canvas-page@0.1.0':
-    resolution: {integrity: sha512-yC6oomzUEoP3pX1wiG9vX0SNgcoupedoBGR7TWYvdHpepxvd3s3zBiEeK3LHheAXvmIn5E4zyJSJAp71DUeikw==}
+  '@quartz-community/canvas-page@1.0.0':
+    resolution: {integrity: sha512-fWo6aEuen7pxKrxQAzhnR3+gqTFASSSfjSFbbmH3JGRth7N0FkPKfBD+J2VcPBl8jNNjZUDo43jMQvZqHA2KYg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       '@jackyzha0/quartz': ^5.0.0
@@ -947,24 +947,24 @@ packages:
       '@jackyzha0/quartz':
         optional: true
 
-  '@quartz-community/citations@0.1.0':
-    resolution: {integrity: sha512-f3DaNJFIoPcs08WgpmWR28Sj7t1ZPERaK2XR0iBSzJsn6alJYzBxpEoTyYgynbew5wpo0s2hWNM+E+qjuSd7Ng==}
+  '@quartz-community/citations@1.0.0':
+    resolution: {integrity: sha512-TkhKtzUwpc/sL0QQVA7L9e8iw+R2S/45C5BC3PVMLSF7Y34/dabrvyxzI0aKvu3/9sK4PRvnloatQfhqUQl/wg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/cname@0.1.0':
-    resolution: {integrity: sha512-grXFAogk7scFiCvM/sBZKRy3/MPLwtgRcobLMcT4zDancRaBh6T7GVu74RoMjO/E4XPw8yCtY86mDBIRo7WXMA==}
+  '@quartz-community/cname@1.0.0':
+    resolution: {integrity: sha512-RGeRyEXTVICbbRcAOTfdfs8h5gRxZEQKxIp52efLaPQpHZDwPzPLrRkvdTBnv2gJKZh6nwor1QC/Mc2jM1xLZA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
 
-  '@quartz-community/comments@0.1.0':
-    resolution: {integrity: sha512-NuR81LJtzNg5Dk1tEs+zex3N68qfEfIwrMny8QY0h2nwMtezyTHBAFspk4JkfVsExFGsiEw3o55ULyCHOT/MlA==}
+  '@quartz-community/comments@1.0.0':
+    resolution: {integrity: sha512-WpZL6edIXFfAi2PWElt3keBoft0HNUsQ2Ou46RV2+JRICJBnth/8VwApigLi/2hrV8CJyYn6OT5xmuGL4SvNCA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/content-index@0.1.0':
-    resolution: {integrity: sha512-zCWwsjQg91x9YRJ4SCzMaQg9N+Tdqj0oI9brGk+WP0bcdCNNci0zT3UGyoUTQ9MVgZOCeTBitNrJQiKi5EQsJw==}
+  '@quartz-community/content-index@1.0.0':
+    resolution: {integrity: sha512-cwhXNFgxecCUr8wiz9EfetwwHCuSmBPpb5RdTrUGOj472FjiNzRQ1VECbOE29n0MrjRyQ++bbFVFCWzpEQCLvA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       vfile: ^6.0.3
@@ -972,14 +972,14 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/content-meta@0.1.0':
-    resolution: {integrity: sha512-975tqafyfdoz6qWeSLMuQIaBVVOQrOC8KfQGSGpf7b5o+3zbqtigMwi+XXC+0b9wUGePrclKwbZC+tXRSbCK3Q==}
+  '@quartz-community/content-meta@1.0.0':
+    resolution: {integrity: sha512-5lJN3hWf+/AQ47rAdSn2aGE9A1UZRjzKjXF6vpd4UiIZapHtLFe7FWDgwVxQfoHl0iq7HvyPaGYf10Qv/wC3gA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/content-page@0.1.0':
-    resolution: {integrity: sha512-AVP8263THDovkM3LnW6nLjPnzlUdGLZW9Jhv+I7a5B69QwOtym61dVgKSBBDGNTaRrtgSkqeE3GYiWKvxuP6Rg==}
+  '@quartz-community/content-page@1.0.0':
+    resolution: {integrity: sha512-Hr4xTSPeVRH5K9HZvcfvZX1KNs+gOwSq8zT2IUBdQAR/g1oD6e0O50Sk7XgJ/tAmmwC0ixPOSJ1I5ZuAp28klQ==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
@@ -988,36 +988,36 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/crawl-links@0.1.1':
-    resolution: {integrity: sha512-2EpIiAbETJaxYPRdBnoMQlqUaTR8m42ncHZ9tqzDTkeLPV8tfa78zCnO0OSjBol9/X5l8eantHQteszgY5zoKg==}
+  '@quartz-community/crawl-links@1.0.0':
+    resolution: {integrity: sha512-RsgH3QvOeGQUfykme0w8sscNV3XcOrq8Jco1MkRb3CMIbiCS+/bVt+yqu1uTpuMAtcml8pdcsGyTwWPKk9DyQg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/created-modified-date@0.1.0':
-    resolution: {integrity: sha512-2bLpoAe9l4BlJLEZf9wWAhhWpwm6ontorEDPf5VLJvjcCm34FBajDLb7roYRrzK/uXTsljehIiYno0liVHJjkA==}
+  '@quartz-community/created-modified-date@1.0.1':
+    resolution: {integrity: sha512-QpIZH+XiWzx8RkVJULaXL4/mE8FWNP6r7sFtYF0/8iE1y0YYh3sIaUZFFOiXedazVVh+L25FaTlLWfFyam1OBA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
-      '@napi-rs/simple-git': ^0.1.19
+      '@napi-rs/simple-git': ^0.1.19 || ^1.0.0
       preact: ^10.0.0
     peerDependenciesMeta:
       '@napi-rs/simple-git':
         optional: true
 
-  '@quartz-community/darkmode@0.1.0':
-    resolution: {integrity: sha512-TzMZYe+AcpDYJtAsUGVESzvtjxbmSOuYPtswItzuo8MDHf0TRspN7SRx/3XYmFcg8R/Q6EQHeaMkluwlQignRw==}
+  '@quartz-community/darkmode@1.0.0':
+    resolution: {integrity: sha512-Jlm/vyyC5I8DdNsOs8FzHRzXyikX7ZHPbwVx3whkOhZO+4TGyRr/eZ9AJ4diF44TC373AWRkde6Hsgtn34bR7Q==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/description@0.1.0':
-    resolution: {integrity: sha512-vQC58IfawU0Oa3Qd/HHK9tf30uG+3Rl9ASMEtxFMRAhE42a7gJltcSosalg2GsiIvhXpS3Yh71w2a+6jAZY3eQ==}
+  '@quartz-community/description@1.0.0':
+    resolution: {integrity: sha512-8cHKrUmJangHBFLXC9G5nUerSCdoM4+JxYQMcHoH8jhmF0EotxeeAb2nUiVwQBW9TRLT8B1CUwuCODuZQWAYgQ==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/encrypted-pages@0.1.1':
-    resolution: {integrity: sha512-cX6UYknrczbxBboc6I/ezBjBf/RSkiirmdE/sEHlBkmLaW41RWyzikcIAxnrWYrLwaug802KS7i2CnEZ061jlQ==}
+  '@quartz-community/encrypted-pages@1.0.0':
+    resolution: {integrity: sha512-rUehtbMZP7bEeFN4g6wqLdr/b8IFKzxLlGegGMwVZY/jkabU2OMF8GlDI08lPgznMNNiS27tSYQtZpgxs9ri0Q==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
@@ -1026,18 +1026,18 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/explicit-publish@0.1.0':
-    resolution: {integrity: sha512-de63C3spVchjAgaKxx0C1sg51KsPGfoY6ytK6OBN6wba0Ft2iV0ExHqFQNOvRAstsb+y/8wv0FZBfj02FT2kag==}
+  '@quartz-community/explicit-publish@1.0.0':
+    resolution: {integrity: sha512-+1DYI9+lA3h8X5kj8PM8abIrNWINZ/owKB8gb8D1QOYOw8OAY+pvDZ3Rwomz94npv/1swMY+bOZ17ZMQ2Gh9BA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
 
-  '@quartz-community/explorer@0.1.0':
-    resolution: {integrity: sha512-qdsXF9ivT32ct52CzOLXCFnxHJS6xHIcX/lVeT82sEmNxjivRLt8kvVK+mJQBiC/Nj8ItRFiL+e0suwNZ19vjQ==}
+  '@quartz-community/explorer@1.0.0':
+    resolution: {integrity: sha512-b1fFhbtlYTJAdXh6jm8NDuyOvQnWOe++swe41eTFIg+ZlkBCQlnXT0N4uNmeN6/bpKBF5E1L3K4XMjNDmJo5ZA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/favicon@0.1.1':
-    resolution: {integrity: sha512-PMCKdCOJXWXzo0Sh+a3Py1DPhJUiy0dXntrMjAgvWNdw3pcUGvrHNjvkMIMzAR7tr7tSZSUkX6UtUKNz3DkKaQ==}
+  '@quartz-community/favicon@1.0.0':
+    resolution: {integrity: sha512-soZEtWkcZhFrdBaKVfqL1gcNS6nWydw1RFrgmJfFA3gjTFm6ovg6WWV+YYGwEag1aBvUn+lOYqAZNUdbf3rw+w==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       sharp: '>=0.33.0'
@@ -1045,8 +1045,8 @@ packages:
       sharp:
         optional: true
 
-  '@quartz-community/folder-page@0.1.0':
-    resolution: {integrity: sha512-ElNZ0LfqL3O3GEN+4bI+535GJFgaIsbDVW8y0TUEzeFxCHUV0p3AYJdNvAga+elq6hC/pJFl9snBo6cpCCNLvA==}
+  '@quartz-community/folder-page@1.0.0':
+    resolution: {integrity: sha512-WugFB1cvK/y0XsEwJMssPHQRPjYaDffL5VeTZNTbcqF31a3cNKpTD6ZWlkq63gSSNlGnv8Q5JXt5qp+KIh80rg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
@@ -1055,42 +1055,42 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/footer@0.1.1':
-    resolution: {integrity: sha512-Rlju8CpJC6PcU1OKO2AVJeoBRbOr11xUyR81bFLVAh9z8shpx2OjeF6uy6HK82kZVsfJlPheYmZ6DNCBLdvYkg==}
+  '@quartz-community/footer@1.0.0':
+    resolution: {integrity: sha512-ioDRbCu04MMo1Mrhbk4GPwOgQ9LPeQg5tRzNhJTLS0KUl6fiBSssNvTTsP20AL85/ZuVYibtksUEhw6opAa11g==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/github-flavored-markdown@0.1.0':
-    resolution: {integrity: sha512-e+cOqwLo5PARbISQaQpLUA9tb0X2dNXevtOHVrufZ1p4bXKTrqZX1EDbfdKxk/gfzYaDE8z59RUUX2xWFF/WQA==}
+  '@quartz-community/github-flavored-markdown@1.0.0':
+    resolution: {integrity: sha512-KVSNyGmh00G5NjMy0fJHs7ytKaoCSWiVWL4jLTQYmWRAY/x8ByYenC7eLwhy2svkDnzrWMNkbQ4lW8FpL03Omg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/graph@0.1.0':
-    resolution: {integrity: sha512-q3Hhu4RqblHbIA45KM79QmNoXLAjaVBOiquYx7E1FS6UozDrn/JG4XOJrrIQnlug73GgqsHFYEAKagZt1rC3dw==}
+  '@quartz-community/graph@1.0.0':
+    resolution: {integrity: sha512-ZmYPp33vF73Vnfx/JFWlD1W23/5bwBlG8fYHgewdCJ5M4xBCbbrWPcoS0MGlHVitruzrk2kZeAD+HqCQ7ULfgg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/hard-line-breaks@0.1.0':
-    resolution: {integrity: sha512-pgRSXui+hcQ/IUb7D8SvpxMzMiQ5lxq8kSDOETmdIQAd+Lt4bDR+q06xGSKn3S6/Wzb6xIBN2OLlwfeKUqbwxg==}
+  '@quartz-community/hard-line-breaks@1.0.0':
+    resolution: {integrity: sha512-4n9aGBtfl3R65NSfQKEJUcbhftcQngVfXicvkqtoJkOR65/DlWDKKMItIMEgFG+yRp/D7KbJ46cJ5bdj/6BwFg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/latex@0.1.0':
-    resolution: {integrity: sha512-CGUgCu76VPRR5fwvrly2Tt86N6G7dbhLffdU1lWkrDZLx8VjdxOQ238OE+zyA7zcKBgjZEt9i0w1zAu40HX14Q==}
+  '@quartz-community/latex@1.0.0':
+    resolution: {integrity: sha512-Yiq8MZ5lDyFVmpfoUBlkCYUIpKj0l/K0yO0E0sOa4aGYH8iobJGSc382cIVBkwseN9N7RFWZn0X8+IQNKy/a1Q==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
-      '@myriaddreamin/rehype-typst': ^0.5.0
+      '@myriaddreamin/rehype-typst': ^0.5.0 || ^0.6.0 || ^0.7.0
       preact: ^10.0.0
     peerDependenciesMeta:
       '@myriaddreamin/rehype-typst':
         optional: true
 
-  '@quartz-community/note-properties@0.1.0':
-    resolution: {integrity: sha512-CtZkOI1bTuh3zs/HGBtrTrPzDQHcFsh7M0m+xTtAeTst47BRys3Zg6msO3+RbpI9u7jRLXeAvaJjYdU340KZFg==}
+  '@quartz-community/note-properties@1.0.0':
+    resolution: {integrity: sha512-SFM7omw04/6vFdQClB9FrbTmBRLUFte/cfHoYAG+HazIy9S75qGgWyjPv0HFSf6WAzfjm+RQPoKYTytUC8anvA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
@@ -1099,14 +1099,14 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/obsidian-flavored-markdown@0.1.2':
-    resolution: {integrity: sha512-rSYcDIyGD9U7ct1GIhckpmHWRn9r2M/gNwdViTNDvESpO6ZO884FbQyAY9/XRjoOXWrX3IJF0/Gh1XXzFKXjCA==}
+  '@quartz-community/obsidian-flavored-markdown@1.0.0':
+    resolution: {integrity: sha512-ZR5n1/OqXowV7wUIaQNMgZ0Smu0K/QMF+UbcGYIwaowmED+iXduh8iv5ag84hu6MvBUNQecXDv/uKm9r9mwA1w==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/og-image@0.1.2':
-    resolution: {integrity: sha512-b6TQGCLzFYcCjwoshxRjmrChkANEZjzf+WeraWI/Cu96T2jVG45hfXYyLEWxa3h9Ae7a94/kke5kShPmV9qaqA==}
+  '@quartz-community/og-image@1.0.0':
+    resolution: {integrity: sha512-/hMCpjR5P/ugRm9F0+9xXkg6HZmVy4Es3wWNvQIhHeqkhT/I/b1zv1h3vRybJ+OdeAO/Y4E/fmiDetUTGHTjpA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
@@ -1118,20 +1118,20 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/ox-hugo@0.1.0':
-    resolution: {integrity: sha512-1ox/5XmmxSd3q4ojgcP9EXnkuzgobUsblPeSZVrdEc7kearJWUNEMTClI3WVGjbg5z3Vac6zXhzVpo/+yNI8ug==}
+  '@quartz-community/ox-hugo@1.0.0':
+    resolution: {integrity: sha512-aYEk5MO3TckFsPTPISJf78I1t8OcqPXvtTvvjqTCyVzur6mlhDRF5v3jWMm+i3pMwgVe7SDA3ob2WthlY9muWg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/page-title@0.1.0':
-    resolution: {integrity: sha512-bOcqBLIUWg3WdAxT8XqVSiZqENYEqe9iM8bcgYGQCZuJ4Ds6QiXmOLo8ylUFr5KHqBhIoMShmkCdFvSiYzLVHA==}
+  '@quartz-community/page-title@1.0.0':
+    resolution: {integrity: sha512-JxHO2uWq/jeNAWFQD31+z2Ib90OSwyTekKVqb5mloiEV0kENosnzvQeph0HMiXtvgDpGQGjuaFg7mjs/5acNbw==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/quartz-fonts@0.1.1':
-    resolution: {integrity: sha512-kEGc9mOV/qQ62FPJii3tUJRIY/Hl/V4cGKBrNTN5UpA8N7xrrCSizUOHe6+rxCsH3w6jFlgt5sH9pXppIrJ7+Q==}
+  '@quartz-community/quartz-fonts@1.0.0':
+    resolution: {integrity: sha512-2AylFI1Y48CDVrYaBrVj1L4Mr2kRYKyKRLS52DlJL5P55ywG5LNTtX3QQDAbXK2d4G8HRiExRD1Fb5+XoHqWHw==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       google-font-metadata: ^6.0.0
@@ -1143,50 +1143,50 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/reader-mode@0.1.0':
-    resolution: {integrity: sha512-AuiHklvfJGi7FNZwg1p6yGXhJ6tr82Ow1sI8/5cGZR7s53jD1HXeNANTiSFGflB/hLucsoGLiS+pUprvI827zQ==}
+  '@quartz-community/reader-mode@1.0.0':
+    resolution: {integrity: sha512-ELt2hUiKKg0XOw/aXWDDB6cet4OzcGe9mvue74YKk4w35rV5CVy+H/zqp4KhBbSAgZFljF0zmW9crogFIWRpQg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/recent-notes@0.1.0':
-    resolution: {integrity: sha512-3NUefbtGl6P6D1w3F7lSw7SK8PpQ0X/RJtY9UBiVYCf1MMSm5srYdVkAbsaLtY59tgSyJDFm9754cKSgUI3Rsw==}
+  '@quartz-community/recent-notes@1.0.0':
+    resolution: {integrity: sha512-ytEQwpnzVfvt4bf0tu+iUiznoAg+vBhIBtu6RvUpISMTm1F/VkU7VPrcNz6On6y1PuyLbC6C6n7u7M9ETRLo+Q==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/rehype-obsidian@0.1.2':
-    resolution: {integrity: sha512-qzwQ/HNABg2K0z3FRtsYwrJrnxkjGOj1/nmnMDK9ygIpRy2FLw1cIxnMbzoBEk7PyOZ10AhdazBDpUb6cV38Qg==}
+  '@quartz-community/rehype-obsidian@1.0.0':
+    resolution: {integrity: sha512-lCELKVx0r7GWfoJC+zAnQIk7V+OhW+T7VpSBeQ7yLlPWdvoYSC06Y0g+AzdNad2qU/i6EjGcbPTANcVFcxQ4Xw==}
     engines: {node: '>=22'}
 
-  '@quartz-community/remark-obsidian@0.1.0':
-    resolution: {integrity: sha512-0b/2M8z1KL5ifNt26gs5LX1kpx297NpTNchNysh4MvOJ5RBDVkZRsNnupo34TuYpGynf7g4nXePdeouHuCElZA==}
+  '@quartz-community/remark-obsidian@1.1.0':
+    resolution: {integrity: sha512-h03rF1pAL6hFv/U/mAaS9XAF7/b/IHkPH6tOzVtdCkwsj0yd2F4P9UThXYquyu2mswzoWFyTb0tpYSE9yIBI3Q==}
     engines: {node: '>=22'}
 
-  '@quartz-community/remove-draft@0.1.0':
-    resolution: {integrity: sha512-zpl+M4GYNM5mCewuH1tWHeWsha9a74YiYALnmVTUaN2J0tXjGt5yQgkS3Ecmorv7GZIn/vZIZmosQiVsDS/VEw==}
+  '@quartz-community/remove-draft@1.0.0':
+    resolution: {integrity: sha512-oQISyAs9A+Z9Sc8l240c2tL9OPPmpd6wmhg3am07/SAUo9G6y7gM5w6DsFIhe2cJOeSdlOIZXSd3DO0uJYChOg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
 
-  '@quartz-community/roam@0.1.0':
-    resolution: {integrity: sha512-IvN0coyDsOzb9uRzTIbM1b3WQSVOEHXKjNjeDnSUMHgZhecTHwXjA+w5cjvBdX0F3xKNjo8zSLjPenv/w6iNYA==}
-    engines: {node: '>=22', npm: '>=10.9.2'}
-    peerDependencies:
-      preact: ^10.0.0
-
-  '@quartz-community/search@0.1.0':
-    resolution: {integrity: sha512-yItpbzqQ8qat+wyvMhHrgtgh00I106z8vM1x2QzqLHYArhdhN3nQ90JOtQv6qigJ0AcmnUDItzWTnNFeFl94cA==}
+  '@quartz-community/roam@1.0.0':
+    resolution: {integrity: sha512-kI9THmJO5SDOYF29Wd7MIhKcXtFZG8h7U9iMuh6IItn8mkOEACKNNycqJ26uOntI+l/qNG5N3BYlmdjVhfYb6g==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/spacer@0.1.0':
-    resolution: {integrity: sha512-Q3ag8WkaXRl5Pvnpd2SwNyAwMhj8ho+ae+wL/dmvvFa9Zgm6VBnL2EHqAQiwLpZ1ZKItqMgaTWHQ/T0I2r2TSA==}
+  '@quartz-community/search@1.0.0':
+    resolution: {integrity: sha512-7xLorEeOQg9p2eA5QIRAcj3vh35w6eHlsMehJGP2oe7gXx7Ngqn9SWpORNXB5qHN5Wx1pRfo8ljvilqvbDYhiA==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/stacked-pages@0.1.0':
-    resolution: {integrity: sha512-ze0fEW+S72hzp5w+c4twpU6ELS/NkiQGGL2qBsMQpKLvh4urq8PVm9LKRcicPsz8ozFKJluyG2jE7iESdL6BFg==}
+  '@quartz-community/spacer@1.0.0':
+    resolution: {integrity: sha512-wW9OnP4mUq1ZKxn4IB3izvZm2oYSCsIRtYKslTe1+nb0yT7pEqcTz4tDM62exondDBDhW3bHsvjqXpr5zKlJ/w==}
+    engines: {node: '>=22', npm: '>=10.9.2'}
+    peerDependencies:
+      preact: ^10.0.0
+
+  '@quartz-community/stacked-pages@1.0.0':
+    resolution: {integrity: sha512-fNyu7LGsnJYorZIsXF86sMjOpc0YTTvlwg4KNoYqbDON2l+cFCt4t3z4pfCES9bV/wQ7561nV4fSjmY8NB142w==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
@@ -1195,27 +1195,27 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/syntax-highlighting@0.1.0':
-    resolution: {integrity: sha512-JzJLVcaZVfiruf2HJzLJN/wU+U085xSKkYHZ/Z0/CtZyis3FjhIsHti7PDcPECsFJ9/sPuH77pxy5tAFV9fAAQ==}
+  '@quartz-community/syntax-highlighting@1.0.1':
+    resolution: {integrity: sha512-nybu9Y6kZPD221HZCBMwx0RKCSVGJybVBDtCNsbcQUgHAeLxT8A3g9ktPPZBsN4wpwBQqD+fWZqaU6oXyyCOzg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
       shiki: ^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
 
-  '@quartz-community/table-of-contents@0.1.0':
-    resolution: {integrity: sha512-p8XjV+LgLHJ13szruRNToTv5GXolTPmvvnzkA1TgPq1HkPSpLkqGdRpUFcg2RyFaVVnV3P7QfKFscA/Yhfqghw==}
+  '@quartz-community/table-of-contents@1.0.0':
+    resolution: {integrity: sha512-P9/Jxy7EoQKcCwjU1kXrwxRz08updKarTkvTiD9CrvBB8myWzJp4PLCITuwpEkU9284xYCwwbJ3Hkho2SM+g4g==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/tag-list@0.1.0':
-    resolution: {integrity: sha512-ggEmwD+QZf0BplWr5w7eXwUK/hcuYS7tbFOYJ8uPvCVnRaHnwGEqmqhwjAgzreOl8DeA8xmJ8XEoah9hilmMCQ==}
+  '@quartz-community/tag-list@1.0.0':
+    resolution: {integrity: sha512-f1FN69FmW0yrCaQ9yR+GOQAHdsBz0gWyTSBMeEvw9/o5cOlyFf7T6U5aXfdAuCTU5H1jK3AMiZHQ749QVnW32A==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
 
-  '@quartz-community/tag-page@0.1.0':
-    resolution: {integrity: sha512-3F/FyZA3bwlU5KCHw+0U6cZuPqf5Mtm35Ze7NwU0E5Uk9dkXFPiwaw30gSmkx4BEKwmae/pKJodX+Qa6VCb1OQ==}
+  '@quartz-community/tag-page@1.0.0':
+    resolution: {integrity: sha512-oh2JxFaOT4H3TvE4W4mO96YPhA7uJa0aeLLkNruZDV8ZFmX0gZ8i9V5SB/NsQ3+49LxY0hBDRZ09IWNsx1P0Pw==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       preact: ^10.0.0
@@ -1224,8 +1224,8 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/types@0.2.1':
-    resolution: {integrity: sha512-IELSoFY8WKoiaMj30JNt8SRVU3TPnYtTZ8Clr4kv0vXXnBsxG6FxhiHbLIEu96RUin4ft4FqHkBjCZyYmzroHA==}
+  '@quartz-community/types@1.0.0':
+    resolution: {integrity: sha512-PJcku35L+DwotX6H8VunLxS1UEBl2hOATexTtdWAIy8eUpQ1d49jhfuMF0ylJu3gXdInEg82N6sbh095LWsKNw==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       unified: ^11.0.5
@@ -1236,20 +1236,8 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/types@0.3.0':
-    resolution: {integrity: sha512-egTCu7cn5d5uVBkW8Hbj6DSlwtQXfiXtPfkHaTqW5hT57I9XrHONbOYEPpL/IvCkQzZUwX6m03nFxbmxGrhyqA==}
-    engines: {node: '>=22', npm: '>=10.9.2'}
-    peerDependencies:
-      unified: ^11.0.5
-      vfile: ^6.0.3
-    peerDependenciesMeta:
-      unified:
-        optional: true
-      vfile:
-        optional: true
-
-  '@quartz-community/unlisted-pages@0.1.0':
-    resolution: {integrity: sha512-Q12AETTBORDfXC3KT0id5opzqmSz9MCsyoZRRSWhpI5og5PeVcKMzH0LV4m7WDLJbc+jE2uiiwTA05lAt24A3w==}
+  '@quartz-community/unlisted-pages@1.0.0':
+    resolution: {integrity: sha512-IItIpJA8/cLKuIs/J3pcU1x7j4NZY3hJPYBEUQb0+tMQjZIAT2e9cKfU7Uj1UcmnZIDfU9+7mjLTWVXgxUPcMg==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       vfile: ^6.0.3
@@ -1257,8 +1245,8 @@ packages:
       vfile:
         optional: true
 
-  '@quartz-community/utils@0.1.1':
-    resolution: {integrity: sha512-6qZ6gRZ7Pg96r9GVMOAhqWrs13C/0Deg6PKHK6U7S8/nE9NnzuPnta0SZvIf7PwlMa9DnpkHsTozrxrDsnq+bg==}
+  '@quartz-community/utils@1.0.1':
+    resolution: {integrity: sha512-oN19Y1KTZOMRuovPnD55wvVup++sZzao0MXihuLNaEEtH1QAg5z4hRrP2ySXF4Ra68T+3ehIICHWa8dHB0LM3A==}
     engines: {node: '>=22', npm: '>=10.9.2'}
     peerDependencies:
       github-slugger: ^2.0.0
@@ -1270,8 +1258,8 @@ packages:
       hast-util-to-jsx-runtime:
         optional: true
 
-  '@quartz-themes/core@1.1.0':
-    resolution: {integrity: sha512-QOzq7rNjpcIvgGgfHTT4Buak/1nlRuygmT86ogTnoxcZ0QT5LYRPHbfZqLqL/+YzVJwZjAO6ppIP1ZrvKCOvTQ==}
+  '@quartz-themes/core@2.0.0':
+    resolution: {integrity: sha512-OwcIgO9s83CR0rDjXAjGUwQR/b+GIv4FlydETA19cEZzBZJe4c+WON/vOMEJaw5CLvhxwuVVaBVm8Ms8uIWemw==}
     engines: {node: '>=22'}
     peerDependencies:
       preact: ^10.0.0
@@ -1335,8 +1323,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@26.5.1':
-    resolution: {integrity: sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g==}
+  '@types/node@26.6.2':
+    resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
 
   '@types/pretty-time@1.1.5':
     resolution: {integrity: sha512-5yl+BYwmnRWZb783W8YYoHXvPY8q/rp7ctHBVaGBB9RxlzGpHNJ72tGQMK7TrUSnxzl1dbDcBDuBCSbtfnSQGg==}
@@ -2156,8 +2144,8 @@ packages:
       preact-render-to-string:
         optional: true
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+  prettier@3.9.8:
+    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2475,8 +2463,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  tsx@4.23.13:
-    resolution: {integrity: sha512-BL5MGkRln6aDYhb0xbQlEAGw743BaZYWdbWtdJOBriYJboKgUUYCadFp2/FpBBZquBC/ezNBn7wMMPx7FDZUDw==}
+  tsx@4.23.15:
+    resolution: {integrity: sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -2574,8 +2562,8 @@ packages:
     resolution: {integrity: sha512-rwu/ClNdSMpkSrUb+d6BRsSkLUq1fmfsY6TOpYzTwvwkg1/NRG85KBy3kq++A8LKQwX6lsu+aWad+2khvuXrqw==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=23}
 
-  yargs@18.1.0:
-    resolution: {integrity: sha512-2rAgRKu54VsHkqI0/tYkmluGXHD4KW7yZoycuqDQ15QOTnc2VVfy0nN/1eMhnQLO00A+dwtK20xuCnc1YGeUyg==}
+  yargs@18.2.0:
+    resolution: {integrity: sha512-9OpKOLeaoNFecEp7P6iYbzze/5CqWoH7N3SMs/6y1XF4nMvFMspEGZzJ6uFi9MmQwXhyzqYoSEKO3tvA3Z/o2w==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=23}
 
   zwitch@2.0.4:
@@ -2989,10 +2977,10 @@ snapshots:
       '@parcel/watcher-win32-x64': 2.6.0
     optional: true
 
-  '@quartz-community/alias-redirects@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/alias-redirects@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
     optionalDependencies:
       vfile: 6.0.3
     transitivePeerDependencies:
@@ -3001,10 +2989,10 @@ snapshots:
       - preact
       - unified
 
-  '@quartz-community/article-title@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/article-title@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3012,10 +3000,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/backlinks@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/backlinks@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3023,10 +3011,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/bases-page@0.2.2(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/bases-page@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       vfile: 6.0.3
@@ -3035,10 +3023,10 @@ snapshots:
       - hast-util-to-jsx-runtime
       - unified
 
-  '@quartz-community/breadcrumbs@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/breadcrumbs@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3046,10 +3034,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/canvas-page@0.1.0(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/canvas-page@1.0.0(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       github-slugger: 2.0.0
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
@@ -3057,25 +3045,25 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/citations@0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/citations@1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - unified
       - vfile
 
-  '@quartz-community/cname@0.1.0(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/cname@1.0.0(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
     transitivePeerDependencies:
       - unified
       - vfile
 
-  '@quartz-community/comments@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/comments@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3083,10 +3071,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/content-index@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/content-index@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
     optionalDependencies:
       vfile: 6.0.3
     transitivePeerDependencies:
@@ -3095,10 +3083,10 @@ snapshots:
       - preact
       - unified
 
-  '@quartz-community/content-meta@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/content-meta@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3106,10 +3094,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/content-page@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/content-page@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       vfile: 6.0.3
@@ -3118,10 +3106,10 @@ snapshots:
       - hast-util-to-jsx-runtime
       - unified
 
-  '@quartz-community/crawl-links@0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/crawl-links@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3129,9 +3117,9 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/created-modified-date@0.1.0(@napi-rs/simple-git@1.1.0)(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/created-modified-date@1.0.1(@napi-rs/simple-git@1.1.0)(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       '@napi-rs/simple-git': 1.1.0
@@ -3139,10 +3127,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/darkmode@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/darkmode@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3150,10 +3138,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/description@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/description@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3161,10 +3149,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/encrypted-pages@0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/encrypted-pages@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       vfile: 6.0.3
@@ -3173,17 +3161,17 @@ snapshots:
       - hast-util-to-jsx-runtime
       - unified
 
-  '@quartz-community/explicit-publish@0.1.0(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/explicit-publish@1.0.0(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
     transitivePeerDependencies:
       - unified
       - vfile
 
-  '@quartz-community/explorer@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/explorer@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3191,19 +3179,19 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/favicon@0.1.1(sharp@0.35.4(@types/node@26.5.1))(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/favicon@1.0.0(sharp@0.35.4(@types/node@26.6.2))(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
     optionalDependencies:
-      sharp: 0.35.4(@types/node@26.5.1)
+      sharp: 0.35.4(@types/node@26.6.2)
     transitivePeerDependencies:
       - unified
       - vfile
 
-  '@quartz-community/folder-page@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/folder-page@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       vfile: 6.0.3
@@ -3212,10 +3200,10 @@ snapshots:
       - hast-util-to-jsx-runtime
       - unified
 
-  '@quartz-community/footer@0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/footer@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3223,18 +3211,18 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/github-flavored-markdown@0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/github-flavored-markdown@1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - unified
       - vfile
 
-  '@quartz-community/graph@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/graph@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3242,17 +3230,17 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/hard-line-breaks@0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/hard-line-breaks@1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - unified
       - vfile
 
-  '@quartz-community/latex@0.1.0(@myriaddreamin/rehype-typst@0.7.0(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/latex@1.0.0(@myriaddreamin/rehype-typst@0.7.0(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       '@myriaddreamin/rehype-typst': 0.7.0(supports-color@8.1.1)
@@ -3260,10 +3248,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/note-properties@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/note-properties@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       vfile: 6.0.3
@@ -3272,12 +3260,12 @@ snapshots:
       - hast-util-to-jsx-runtime
       - unified
 
-  '@quartz-community/obsidian-flavored-markdown@0.1.2(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/obsidian-flavored-markdown@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/rehype-obsidian': 0.1.2
-      '@quartz-community/remark-obsidian': 0.1.0
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/rehype-obsidian': 1.0.0
+      '@quartz-community/remark-obsidian': 1.1.0
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3285,54 +3273,31 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/og-image@0.1.2(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(sharp@0.35.4(@types/node@26.5.1))(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/og-image@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(sharp@0.35.4(@types/node@26.6.2))(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
-      sharp: 0.35.4(@types/node@26.5.1)
+      sharp: 0.35.4(@types/node@26.6.2)
       vfile: 6.0.3
     transitivePeerDependencies:
       - github-slugger
       - hast-util-to-jsx-runtime
       - unified
 
-  '@quartz-community/ox-hugo@0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/ox-hugo@1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - unified
       - vfile
 
-  '@quartz-community/page-title@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/page-title@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      preact: 10.29.8(preact-render-to-string@6.7.0)
-    transitivePeerDependencies:
-      - github-slugger
-      - hast-util-to-jsx-runtime
-      - unified
-      - vfile
-
-  '@quartz-community/quartz-fonts@0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
-    dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      preact: 10.29.8(preact-render-to-string@6.7.0)
-    optionalDependencies:
-      vfile: 6.0.3
-    transitivePeerDependencies:
-      - github-slugger
-      - hast-util-to-jsx-runtime
-      - unified
-
-  '@quartz-community/reader-mode@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
-    dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3340,59 +3305,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/recent-notes@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/quartz-fonts@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      preact: 10.29.8(preact-render-to-string@6.7.0)
-    transitivePeerDependencies:
-      - github-slugger
-      - hast-util-to-jsx-runtime
-      - unified
-      - vfile
-
-  '@quartz-community/rehype-obsidian@0.1.2': {}
-
-  '@quartz-community/remark-obsidian@0.1.0': {}
-
-  '@quartz-community/remove-draft@0.1.0(unified@11.0.5)(vfile@6.0.3)':
-    dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-    transitivePeerDependencies:
-      - unified
-      - vfile
-
-  '@quartz-community/roam@0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
-    dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      preact: 10.29.8(preact-render-to-string@6.7.0)
-    transitivePeerDependencies:
-      - unified
-      - vfile
-
-  '@quartz-community/search@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
-    dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
-      preact: 10.29.8(preact-render-to-string@6.7.0)
-    transitivePeerDependencies:
-      - github-slugger
-      - hast-util-to-jsx-runtime
-      - unified
-      - vfile
-
-  '@quartz-community/spacer@0.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
-    dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      preact: 10.29.8(preact-render-to-string@6.7.0)
-    transitivePeerDependencies:
-      - unified
-      - vfile
-
-  '@quartz-community/stacked-pages@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
-    dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       vfile: 6.0.3
@@ -3401,19 +3317,91 @@ snapshots:
       - hast-util-to-jsx-runtime
       - unified
 
-  '@quartz-community/syntax-highlighting@0.1.0(preact@10.29.8)(shiki@4.4.3)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/reader-mode@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      preact: 10.29.8(preact-render-to-string@6.7.0)
+    transitivePeerDependencies:
+      - github-slugger
+      - hast-util-to-jsx-runtime
+      - unified
+      - vfile
+
+  '@quartz-community/recent-notes@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+    dependencies:
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      preact: 10.29.8(preact-render-to-string@6.7.0)
+    transitivePeerDependencies:
+      - github-slugger
+      - hast-util-to-jsx-runtime
+      - unified
+      - vfile
+
+  '@quartz-community/rehype-obsidian@1.0.0': {}
+
+  '@quartz-community/remark-obsidian@1.1.0': {}
+
+  '@quartz-community/remove-draft@1.0.0(unified@11.0.5)(vfile@6.0.3)':
+    dependencies:
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+    transitivePeerDependencies:
+      - unified
+      - vfile
+
+  '@quartz-community/roam@1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+    dependencies:
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      preact: 10.29.8(preact-render-to-string@6.7.0)
+    transitivePeerDependencies:
+      - unified
+      - vfile
+
+  '@quartz-community/search@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+    dependencies:
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      preact: 10.29.8(preact-render-to-string@6.7.0)
+    transitivePeerDependencies:
+      - github-slugger
+      - hast-util-to-jsx-runtime
+      - unified
+      - vfile
+
+  '@quartz-community/spacer@1.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+    dependencies:
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      preact: 10.29.8(preact-render-to-string@6.7.0)
+    transitivePeerDependencies:
+      - unified
+      - vfile
+
+  '@quartz-community/stacked-pages@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+    dependencies:
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      preact: 10.29.8(preact-render-to-string@6.7.0)
+    optionalDependencies:
+      vfile: 6.0.3
+    transitivePeerDependencies:
+      - github-slugger
+      - hast-util-to-jsx-runtime
+      - unified
+
+  '@quartz-community/syntax-highlighting@1.0.1(preact@10.29.8)(shiki@4.4.3)(unified@11.0.5)(vfile@6.0.3)':
+    dependencies:
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
       shiki: 4.4.3
     transitivePeerDependencies:
       - unified
       - vfile
 
-  '@quartz-community/table-of-contents@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/table-of-contents@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3421,10 +3409,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/tag-list@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/tag-list@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - github-slugger
@@ -3432,10 +3420,10 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-community/tag-page@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/tag-page@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       vfile: 6.0.3
@@ -3444,20 +3432,15 @@ snapshots:
       - hast-util-to-jsx-runtime
       - unified
 
-  '@quartz-community/types@0.2.1(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/types@1.0.0(unified@11.0.5)(vfile@6.0.3)':
     optionalDependencies:
       unified: 11.0.5
       vfile: 6.0.3
 
-  '@quartz-community/types@0.3.0(unified@11.0.5)(vfile@6.0.3)':
-    optionalDependencies:
-      unified: 11.0.5
-      vfile: 6.0.3
-
-  '@quartz-community/unlisted-pages@0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/unlisted-pages@1.0.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-community/utils': 0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/utils': 1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)
     optionalDependencies:
       vfile: 6.0.3
     transitivePeerDependencies:
@@ -3466,9 +3449,9 @@ snapshots:
       - preact
       - unified
 
-  '@quartz-community/utils@0.1.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-community/utils@1.0.1(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6(supports-color@8.1.1))(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     optionalDependencies:
       github-slugger: 2.0.0
@@ -3477,9 +3460,9 @@ snapshots:
       - unified
       - vfile
 
-  '@quartz-themes/core@1.1.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
+  '@quartz-themes/core@2.0.0(preact@10.29.8)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
-      '@quartz-community/types': 0.2.1(unified@11.0.5)(vfile@6.0.3)
+      '@quartz-community/types': 1.0.0(unified@11.0.5)(vfile@6.0.3)
       preact: 10.29.8(preact-render-to-string@6.7.0)
     transitivePeerDependencies:
       - unified
@@ -3553,7 +3536,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@26.5.1':
+  '@types/node@26.6.2':
     dependencies:
       undici-types: 8.9.0
 
@@ -3569,7 +3552,7 @@ snapshots:
 
   '@types/ws@8.18.1':
     dependencies:
-      '@types/node': 26.5.1
+      '@types/node': 26.6.2
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -4461,7 +4444,7 @@ snapshots:
     optionalDependencies:
       preact-render-to-string: 6.7.0(preact@10.29.8)
 
-  prettier@3.9.6: {}
+  prettier@3.9.8: {}
 
   pretty-bytes@7.1.3: {}
 
@@ -4665,7 +4648,7 @@ snapshots:
       safe-buffer: 5.2.1
       to-buffer: 1.2.2
 
-  sharp@0.35.4(@types/node@26.5.1):
+  sharp@0.35.4(@types/node@26.6.2):
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
@@ -4696,7 +4679,7 @@ snapshots:
       '@img/sharp-win32-arm64': 0.35.4
       '@img/sharp-win32-ia32': 0.35.4
       '@img/sharp-win32-x64': 0.35.4
-      '@types/node': 26.5.1
+      '@types/node': 26.6.2
 
   shiki@4.4.3:
     dependencies:
@@ -4796,7 +4779,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsx@4.23.13:
+  tsx@4.23.15:
     dependencies:
       esbuild: 0.28.2
     optionalDependencies:
@@ -4925,7 +4908,7 @@ snapshots:
 
   yargs-parser@22.0.0: {}
 
-  yargs@18.1.0:
+  yargs@18.2.0:
     dependencies:
       cliui: 9.0.1
       escalade: 3.2.0
